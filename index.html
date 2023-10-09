@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Sign in</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="login">
+            <div style="gap:32px" class="login-container">
+                <div class="title-container">
+                    <span class="title hight-l">
+                        Sign in
+                    </span>
+                </div>
+                <div class="box">
+
+                    <form class="login-form" action="">
+                        <div class="loginDialog">
+                            <label for="Account-name" class="textB">SIGN IN WITH ACCOUNT NAME</label>
+                            <input type="text" name="Account-name" class="text-input">
+                        </div>
+                        <div class="loginDialog">
+                            <label for="Passw" class="textA">PASSWORD</label>
+                            <input type="text" name="Passw" class="text-input">
+                        </div>
+                        <div class="checkDialog textA">
+                            <input type="checkbox">
+                            <span>Remember Me</span>
+                        </div>
+                        <div class="buttonContainer">
+                            <button class="submitButton">Sign in</button>
+                        </div>
+                        <div class="login-error">
+                            please check your account name and password and try again
+                        </div>
+                        <div class="extra-info">
+                           <a href="https://help.steampowered.com/en/wizard/HelpWithLogin?redir=https%3A%2F%2Fstore.steampowered.com%2Flogin%2F%3Fsteamtv"> Help,I can't sign in
+                           </a>
+                        </div>
+                    </form>
+                    <div class="loginQR">
+                        <span class="textB">OR SIGN IN WITH QR</span>
+                        <div class="qr-container" style="background-color:white; padding:10px; border-radius:10px; height:200px;width:200px;">
+                            <img src="qrcode.png" alt="">
+                            <div class="qr-info">
+                                <div class="info-style" style="text-align:center; ">Use the <a href="/google">Steam Mobile App</a> to sign in via QR code</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="account-createlink">
+                <span class="title2">
+                    New to Steam?
+                </span>
+                <div class="">
+                    <a class="createButton" href="https://store.steampowered.com/join/?redir=https%3A%2F%2Fsteam.tv%2F&snr=1_60_4__62">
+                        <span>Create Account</span>
+                    </a>
+                </div>
+            </div>
+            <div class="descriptionSteam info-style">
+                It's free and easy. Discover thousands of games to play with millions of new friends.
+                <a>Learn more about Steam</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
