@@ -1,6 +1,6 @@
 # Phishing-Sample-Cyber-Security-
 ## Group : F4
->> Steam Login Page for Phishing
+> Steam Login Page for Phishing
 ### Member
 - Chuob Chhenglun
 - Bou Taihor
